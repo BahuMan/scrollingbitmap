@@ -29,7 +29,8 @@ void loop() {
   scroll(scrollpos);
   delay(10);
   scrollpos--;
-  if (scrollpos > 240) scrollpos = 239;
+  if (scrollpos > 240) scrollpos = 239
+  ;
 }
 
 void showBitmap()
