@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+    "name":"Fri3dBadge2022",
+    "version":"0.0.1",
+    "authors":
+    {
+        "name":"Fri3d Camp",
+        "email": "info@fri3d.be",
+        "url": "https://github.com/Fri3dCamp/Badge2020_arduino",
+        "maintainer": true
+    },
+    "description":"Arduino library for the Fri3d Camp 2022 badge",
+    "homepage":"https://github.com/Fri3dCamp/Badge2020_arduino",
+    "architectures":"esp32",
+    "headers":
+    [
+        "Badge2020_arduino",
+        "Badge2020_Accelerometer",
+        "Badge2020_Buzzer",
+        "Badge2020_TFT"
+    ],
+    "dependencies":
+    {
+        "Adafruit GFX Library":"*",
+        "Adafruit NeoPixel":"^1.11.0",
+        "Adafruit ST7735 and ST7789 Library":"^1.10.0"
+    }
+}
